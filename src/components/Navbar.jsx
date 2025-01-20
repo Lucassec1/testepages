@@ -50,6 +50,11 @@ function Navbar() {
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
             <img
+              src="public\assets\imgs\logo_washes.svg"
+              alt="Logo"
+              className="h-8 mr-2 cursor-pointer"
+            />
+             <img
               src={logo}
               alt="Logo"
               className="h-8 mr-2 cursor-pointer"

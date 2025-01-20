@@ -1,6 +1,6 @@
 export const dadosEdicoesAnteriores = [
   { // Primeira Edição WASHES
-    imagem: "/assets/edicoesAnterioresImages/washes-i-maceio.jpg",
+    imagem: "public/assets/edicoesAnterioresImages/washes-i-maceio.jpg",
     creditosDaImagem:"Foto de Lucas Meneses no Pexels",
     edicao: "I WASHES",
     local : "Maceió - Al",
@@ -9,7 +9,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/369"
   },
   { // Segunda Edição WASHES
-    imagem: "/assets/edicoesAnterioresImages/washes-ii-salvador.jpg",
+    imagem: "public/assets/edicoesAnterioresImages/washes-ii-salvador.jpg",
     creditosDaImagem:"Foto de Leonardo Dourado no Pexels",
     edicao: "II WASHES",
     local : "Salvador - BA",
@@ -18,7 +18,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/370"
   },
   { // Terceira Edição WASHES
-    imagem: "/assets/edicoesAnterioresImages/washes-iii-natal.jpg",
+    imagem: "public/assets/edicoesAnterioresImages/washes-iii-natal.jpg",
     creditosDaImagem:"Foto de Aldair Silva no Pexels",
     edicao: "III WASHES",
     local : "Natal - RN ",
