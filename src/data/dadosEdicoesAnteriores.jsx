@@ -6,7 +6,7 @@ export const dadosEdicoesAnteriores = [
     edicao: "I WASHES",
     local : "Maceió - Al",
     anoDaEdicao: "(2016)",
-    linkWebsite: "/testepages/washes-2016",
+    linkWebsite: "https://emanuelcicero.github.io/testepages/washes-2016",
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/369"
   },
   { // Segunda Edição WASHES

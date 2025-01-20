@@ -1,7 +1,7 @@
 {
   "name": "testepages",
   "private": true,
-  "homepage": "https://emanuelcicero.github.io/testepages/home",
+  "homepage": "https://emanuelcicero.github.io/testepages/home/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

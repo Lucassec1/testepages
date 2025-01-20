@@ -1,7 +1,7 @@
 export const dadosCoordenadores = {
   2016: [
     {
-      imgSrc: "/assets/imgs/rodrigo_santos.jpg",
+      imgSrc: "./assets/imgs/rodrigo_santos.jpg",
       name: "Rodrigo Santos",
       university: "Universidade Federal do Estado do Rio de Janeiro",
       memberType: "Membro Permanente",
@@ -9,7 +9,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/8613736894676086",
     },
     {
-      imgSrc: "/assets/imgs/Igor Steinmacher.jpg",
+      imgSrc: "./assets/imgs/Igor Steinmacher.jpg",
       name: "Igor Steinmacher",
       university: "Northern Arizona University",
       memberType: "Membro Permanente",
@@ -18,7 +18,7 @@ export const dadosCoordenadores = {
 
     },
     {
-      imgSrc: "/assets/imgs/Davi Viana.jpeg",
+      imgSrc: "./assets/imgs/Davi Viana.jpeg",
       name: "Davi Viana",
       university: "Universidade Federal do Maranhão",
       memberType: "Membro Permanente",
@@ -188,7 +188,7 @@ export const dadosCoordenadores = {
   ],
   2025: [
     {
-      imgSrc: "/assets/imgs/Allyson Allex.jpg",
+      imgSrc: "./assets/imgs/Allyson Allex.jpg",
       name: "Allysson Allex Araújo",
       university: "Universidade Federal do Cariri",
       memberType: "Coordenador",
@@ -196,7 +196,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/1768955171390815",
     },
     {
-      imgSrc: "/assets/imgs/Luciana Zaina.jpg",
+      imgSrc: "./assets/imgs/Luciana Zaina.jpg",
       name: "Luciana Zaina",
       university: "Universidade Federal de São Carlos",
       memberType: "Coordenadora",
@@ -204,7 +204,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/0192085115595443",
     },
     {
-      imgSrc: "/assets/imgs/Anna Beatriz.jpg",
+      imgSrc: "./assets/imgs/Anna Beatriz.jpg",
       name: "Anna Beatriz",
       university: "Universidade Federal do Ceará",
       memberType: "Coordenadora",
@@ -212,7 +212,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/5522150204610320",
     },
     {
-      imgSrc: "/assets/imgs/glaucia-braga-silva.jpg",
+      imgSrc: "./assets/imgs/glaucia-braga-silva.jpg",
       name: "Glaucia Braga e Silva",
       university: "Universidade Federal de Viçosa",
       memberType: "Coordenadora",
@@ -220,7 +220,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/2427091227765800"
     },
     {
-      imgSrc: "/assets/imgs/Estela Miranda.jpg",
+      imgSrc: "./assets/imgs/Estela Miranda.jpg",
       name: "Estela Miranda",
       university: "Universidade Federal de Viçosa",
       memberType: "Social Media Chair",
