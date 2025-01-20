@@ -1,4 +1,4 @@
-name: deploy
+name: Deploy
 
 on:
   push:
@@ -7,18 +7,28 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      # Checkout do código
+      - uses: actions/checkout@v3
+
+      # Configurar Node.js
+      - uses: actions/setup-node@v3
         with:
           node-version: '18.x'
+          cache: 'npm' # Cache de dependências
+
+      # Instalar dependências e buildar
       - name: Build web-app
+        env:
+          NODE_ENV: production
         run: |
           npm ci
           npm run build
-      - name: Deploy to gh-pages
+
+      # Deploy para o GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./dist # Substitua por ./build se for o diretório correto
