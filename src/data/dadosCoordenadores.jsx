@@ -1,5 +1,3 @@
-import fodase from "/public/assets/imgs/rodrigo_santos.jpg"
-
 export const dadosCoordenadores = {
   2016: [
     {
@@ -190,7 +188,7 @@ export const dadosCoordenadores = {
   ],
   2025: [
     {
-      imgSrc: {fodase},
+      imgSrc: "./assets/imgs/Allyson Allex.jpg",
       name: "Allysson Allex Araújo",
       university: "Universidade Federal do Cariri",
       memberType: "Coordenador",
