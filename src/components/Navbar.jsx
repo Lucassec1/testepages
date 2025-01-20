@@ -49,11 +49,6 @@ function Navbar() {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
-          <img
-              src="/assets/imgs/logo_washes.svg"
-              alt="Logo"
-              className="h-8 mr-2 cursor-pointer"
-            />
             <img
               src="./assets/imgs/logo_washes.svg"
               alt="Logo"

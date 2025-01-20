@@ -1,6 +1,6 @@
 export const dadosEdicoesAnteriores = [
   { // Primeira Edição WASHES
-    imagem: "public/assets/edicoesAnterioresImages/washes-i-maceio.jpg",
+    imagem: "./assets/edicoesAnterioresImages/washes-i-maceio.jpg",
     creditosDaImagem:"Foto de Lucas Meneses no Pexels",
     edicao: "I WASHES",
     local : "Maceió - Al",
