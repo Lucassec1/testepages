@@ -32,10 +32,10 @@ function Navbar() {
   );
 
   const navItems = [
-    { name: "HOME", path: "testepages/" },
-    { name: "QUEM SOMOS", path: "testepages/quem-somos" },
-    { name: `WASHES ${dadosEdicaoAtual.anoAtualDoEvento}`, path: `testepages/washes-${dadosEdicaoAtual.anoAtualDoEvento}` },
-    { name: "EDIÇÕES ANTERIORES", path: "testepages/edicoes-anteriores" },
+    { name: "HOME", path: "/" },
+    { name: "QUEM SOMOS", path: "/quem-somos" },
+    { name: `WASHES ${dadosEdicaoAtual.anoAtualDoEvento}`, path: `/washes-${dadosEdicaoAtual.anoAtualDoEvento}` },
+    { name: "EDIÇÕES ANTERIORES", path: "/edicoes-anteriores" },
     {
       name: "DATAWASHES",
       path: "https://datawashes.pythonanywhere.com",
