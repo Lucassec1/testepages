@@ -28,7 +28,7 @@ function App() {
       <div className="pt-14">
         <Routes>
           <Route index element={<Home />} />
-          <Route path="testepages/home" element={<Home />} />
+          <Route path="/testepages/home" element={<Home />} />
           <Route path="/quem-somos" element={<QuemSomos />} />
           <Route path="/testepages/washes-2016" element={<Washes2016/>} />
           <Route path="/testepages/washes-2017" element={<Washes2017/>} />

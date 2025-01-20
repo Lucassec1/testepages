@@ -1,3 +1,5 @@
+import fodase from "/public/assets/imgs/rodrigo_santos.jpg"
+
 export const dadosCoordenadores = {
   2016: [
     {
@@ -162,7 +164,7 @@ export const dadosCoordenadores = {
   ],
   2024: [
     {
-      imgSrc: "/assets/imgs/Allyson Allex.jpg",
+      imgSrc: "./assets/imgs/Allyson Allex.jpg",
       name: "Allysson Allex Araújo",
       university: "Universidade Federal do Cariri",
       memberType: "Coordenador",
@@ -170,7 +172,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/1768955171390815",
     },
     {
-      imgSrc: "/assets/imgs/Anna Beatriz.jpg",
+      imgSrc: "./assets/imgs/Anna Beatriz.jpg",
       name: "Anna Beatriz",
       university: "Universidade Federal do Ceará",
       memberType: "Coordenadora",
@@ -178,7 +180,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/5522150204610320",
     },
     {
-      imgSrc: "/assets/imgs/Emanuel Coutinho.png",
+      imgSrc: "./assets/imgs/Emanuel Coutinho.png",
       name: "Emanuel Coutinho",
       university: "Universidade Federal do Ceará",
       memberType: "Coordenador",
@@ -188,7 +190,7 @@ export const dadosCoordenadores = {
   ],
   2025: [
     {
-      imgSrc: "./assets/imgs/Allyson Allex.jpg",
+      imgSrc: {fodase},
       name: "Allysson Allex Araújo",
       university: "Universidade Federal do Cariri",
       memberType: "Coordenador",
