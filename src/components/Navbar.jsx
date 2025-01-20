@@ -3,7 +3,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import { dadosEdicaoAtual } from "../data/dadosEdicaoAtual";
 import "../style/app.css";
-import logo from "/assets/imgs/logo_washes.svg"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,11 +50,6 @@ function Navbar() {
           <Link to="/" className="flex items-center">
             <img
               src="./assets/imgs/logo_washes.svg"
-              alt="Logo"
-              className="h-8 mr-2 cursor-pointer"
-            />
-             <img
-              src={logo}
               alt="Logo"
               className="h-8 mr-2 cursor-pointer"
             />
