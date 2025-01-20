@@ -28,11 +28,11 @@ function App() {
       <div className="pt-14">
         <Routes>
           <Route index element={<Home />} />
-          <Route path="testepages/" element={<Home />} />
+          <Route path="testepages/home" element={<Home />} />
           <Route path="/quem-somos" element={<QuemSomos />} />
-          <Route path="/washes-2016" element={<Washes2016/>} />
-          <Route path="/washes-2017" element={<Washes2017/>} />
-          <Route path="/washes-2018" element={<Washes2018/>} />
+          <Route path="/testepages/washes-2016" element={<Washes2016/>} />
+          <Route path="/testepages/washes-2017" element={<Washes2017/>} />
+          <Route path="/testepages/washes-2018" element={<Washes2018/>} />
           <Route path="/washes-2019" element={<Washes2019/>} />
           <Route path="/washes-2020" element={<Washes2020/>} />
           <Route path="/washes-2021" element={<Washes2021/>} />

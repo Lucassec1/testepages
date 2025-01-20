@@ -32,7 +32,7 @@ function Navbar() {
   );
 
   const navItems = [
-    { name: "HOME", path: "/" },
+    { name: "HOME", path: "/testepages/home" },
     { name: "QUEM SOMOS", path: "/quem-somos" },
     { name: `WASHES ${dadosEdicaoAtual.anoAtualDoEvento}`, path: `/washes-${dadosEdicaoAtual.anoAtualDoEvento}` },
     { name: "EDIÇÕES ANTERIORES", path: "/edicoes-anteriores" },

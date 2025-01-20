@@ -1,5 +1,3 @@
-const teste = "/washes-2018"
-
 
 export const dadosEdicoesAnteriores = [
   { // Primeira Edição WASHES
@@ -8,7 +6,7 @@ export const dadosEdicoesAnteriores = [
     edicao: "I WASHES",
     local : "Maceió - Al",
     anoDaEdicao: "(2016)",
-    linkWebsite: "testepages/washes-2016",
+    linkWebsite: "/testepages/washes-2016",
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/369"
   },
   { // Segunda Edição WASHES
@@ -17,7 +15,7 @@ export const dadosEdicoesAnteriores = [
     edicao: "II WASHES",
     local : "Salvador - BA",
     anoDaEdicao: "(2017)",
-    linkWebsite: "./washes-2017",
+    linkWebsite: "/washes-2017",
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/370"
   },
   { // Terceira Edição WASHES
@@ -26,7 +24,7 @@ export const dadosEdicoesAnteriores = [
     edicao: "III WASHES",
     local : "Natal - RN ",
     anoDaEdicao: "(2018)",
-    linkWebsite: {teste},
+    linkWebsite: "/washes-2018",
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/218"
   },
   { // Quarta Edição WASHES
