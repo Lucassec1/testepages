@@ -14,7 +14,7 @@ export const dadosEdicoesAnteriores = [
     edicao: "II WASHES",
     local : "Salvador - BA",
     anoDaEdicao: "(2017)",
-    linkWebsite: "/washes-2017",
+    linkWebsite: "testepages/washes-2017",
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/370"
   },
   { // Terceira Edição WASHES

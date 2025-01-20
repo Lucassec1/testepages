@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import { dadosEdicaoAtual } from "../data/dadosEdicaoAtual";
 import "../style/app.css";
+import logo from "/assets/imgs/logo_washes.svg"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,10 +33,10 @@ function Navbar() {
   );
 
   const navItems = [
-    { name: "HOME", path: "/" },
-    { name: "QUEM SOMOS", path: "/quem-somos" },
-    { name: `WASHES ${dadosEdicaoAtual.anoAtualDoEvento}`, path: `/washes-${dadosEdicaoAtual.anoAtualDoEvento}` },
-    { name: "EDIÇÕES ANTERIORES", path: "/edicoes-anteriores" },
+    { name: "HOME", path: "testepages/" },
+    { name: "QUEM SOMOS", path: "testepages/quem-somos" },
+    { name: `WASHES ${dadosEdicaoAtual.anoAtualDoEvento}`, path: `testepages/washes-${dadosEdicaoAtual.anoAtualDoEvento}` },
+    { name: "EDIÇÕES ANTERIORES", path: "testepages/edicoes-anteriores" },
     {
       name: "DATAWASHES",
       path: "https://datawashes.pythonanywhere.com",
@@ -49,7 +50,7 @@ function Navbar() {
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
             <img
-              src="/assets/imgs/logo_washes.svg"
+              src={logo}
               alt="Logo"
               className="h-8 mr-2 cursor-pointer"
             />

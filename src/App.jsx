@@ -28,20 +28,20 @@ function App() {
       <div className="pt-14">
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/quem-somos" element={<QuemSomos />} />
-          <Route path="/washes-2016" element={<Washes2016/>} />
-          <Route path="/washes-2017" element={<Washes2017/>} />
-          <Route path="/washes-2018" element={<Washes2018/>} />
-          <Route path="/washes-2019" element={<Washes2019/>} />
-          <Route path="/washes-2020" element={<Washes2020/>} />
-          <Route path="/washes-2021" element={<Washes2021/>} />
-          <Route path="/washes-2022" element={<Washes2022/>} />
-          <Route path="/washes-2023" element={<Washes2023/>} />
-          <Route path="/washes-2024" element={<Washes2024/>} />
-          <Route path="/washes-2025" element={<Washes2025/>} />
-          <Route path="/washes-2026" element={<Washes2026/>} />
-          <Route path="/edicoes-anteriores" element={<EdicoesAnteriores />} />
+          <Route path="testepages/" element={<Home />} />
+          <Route path="testepages/quem-somos" element={<QuemSomos />} />
+          <Route path="testepages/washes-2016" element={<Washes2016/>} />
+          <Route path="testepages/washes-2017" element={<Washes2017/>} />
+          <Route path="testepages/washes-2018" element={<Washes2018/>} />
+          <Route path="testepages/washes-2019" element={<Washes2019/>} />
+          <Route path="testepages/washes-2020" element={<Washes2020/>} />
+          <Route path="testepages/washes-2021" element={<Washes2021/>} />
+          <Route path="testepages/washes-2022" element={<Washes2022/>} />
+          <Route path="testepages/washes-2023" element={<Washes2023/>} />
+          <Route path="testepages/washes-2024" element={<Washes2024/>} />
+          <Route path="testepages/washes-2025" element={<Washes2025/>} />
+          <Route path="testepages/washes-2026" element={<Washes2026/>} />
+          <Route path="testepages/edicoes-anteriores" element={<EdicoesAnteriores />} />
           <Route path="/datawashes" element={<DataWashes />} />
           {/* <Route path="*" element={<NoMatch />} /> */}
         </Routes>
