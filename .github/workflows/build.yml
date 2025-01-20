@@ -8,34 +8,34 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      # Checkout do código
-      - uses: actions/checkout@v3
 
-      # Configurar Node.js
-      - uses: actions/setup-node@v3
+    steps:
+      # Checkout do código do repositório
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Configurar Node.js com cache de dependências
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-          cache: 'npm' # Cache de dependências
+          cache: 'npm'
 
-      # Instalar dependências e buildar
+      # Instalar dependências
+      - name: Install dependencies
+        run: npm ci
+
+      # Garantir que o Vite está instalado
+      - name: Ensure Vite installation
+        run: npm install vite --save-dev
+
+      # Rodar o build do projeto
       - name: Build web-app
         env:
           NODE_ENV: production
-        run: |
-          npm install
-          npm run build
-          
-       - name: Install dependencies
-        run: npm ci
-
-      - name: Verify Vite installation
-        run: npm list vite || npm install vite --save-dev
-
-      - name: Build web-app
         run: npm run build
 
-      # Deploy para o GitHub Pages
+      # Fazer o deploy para o GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
