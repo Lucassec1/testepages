@@ -23,10 +23,10 @@ import {
 function App() {
   return (
     <>
+      <BrowserRouter basename='testepages/'>
       <Navbar />
       <ScrollToTop />
       <div className="pt-14">
-      <BrowserRouter basename='testepages/'>
         <Routes>
           <Route index element={<Home />} />
           <Route path="testepages/" element={<Home />} />
@@ -46,9 +46,9 @@ function App() {
           <Route path="/datawashes" element={<DataWashes />} />
           {/* <Route path="*" element={<NoMatch />} /> */}
         </Routes>
-      </BrowserRouter>
       </div>
       <Footer />
+      </BrowserRouter>
     </>
   )
 }
