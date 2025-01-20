@@ -299,7 +299,7 @@ export const dadosComiteDiretivo = {
   ],
   2025: [
     {
-      imgSrc: "./assets/imgs/Davi Viana.jpeg",
+      imgSrc: "./testepages/assets/imgs/Davi Viana.jpeg",
       name: "Davi Viana",
       university: "Universidade Federal do Maranhão",
       memberType: "Membro Permanente",
