@@ -26,7 +26,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/9297257833779277",
     },
     {
-      imgSrc: "/assets/imgs/Sabrina Marczak.gif",
+      imgSrc: "./assets/imgs/Sabrina Marczak.gif",
       name:"Sabrina dos Santos Marczak",
       university:"Pontifícia Universidade Católica do Rio Grande do Sul",
       memberType:"Coordenadora",
@@ -36,7 +36,7 @@ export const dadosCoordenadores = {
   ],
   2017: [
     {
-      imgSrc: "/assets/imgs/rodrigo_santos.jpg",
+      imgSrc: "./assets/imgs/rodrigo_santos.jpg",
       name: "Rodrigo Santos",
       university: "Universidade Federal do Estado do Rio de Janeiro",
       memberType: "Membro Permanente",
@@ -44,7 +44,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/8613736894676086",
     },
     {
-      imgSrc: "/assets/imgs/Eldânae Teixeira.gif",
+      imgSrc: "./assets/imgs/Eldânae Teixeira.gif",
       name: "Eldânae Teixeira",
       university: "Universidade Federal do Rio de Janeiro",
       memberType: "Coordenadora",
@@ -54,7 +54,7 @@ export const dadosCoordenadores = {
   ],
   2018: [
     {
-      imgSrc: "/assets/imgs/Igor Wiese.png",
+      imgSrc: "./assets/imgs/Igor Wiese.png",
       name: "Igor Wiese",
       university: "Universidade Tecnológica Federal do Paraná ",
       memberType: "Coordenador",
@@ -62,7 +62,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/0447444423694007",
     },
     {
-      imgSrc: "/assets/imgs/Davi Viana.jpeg",
+      imgSrc: "./assets/imgs/Davi Viana.jpeg",
       name: "Davi Viana",
       university: "Universidade Federal do Maranhão",
       memberType: "Membro Permanente",
@@ -72,7 +72,7 @@ export const dadosCoordenadores = {
   ],
   2019: [
     {
-      imgSrc: "/public/assets/imgs/Valdemar Neto.jpg",
+      imgSrc: "./assets/imgs/Valdemar Neto.jpg",
       name: "Valdemar Neto",
       university: "Universidade Federal de Goiás",
       memberType: "Coordenador",
@@ -80,7 +80,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/9864803557706493",
     },
     {
-      imgSrc: "/assets/imgs/rodrigo_santos.jpg",
+      imgSrc: "./assets/imgs/rodrigo_santos.jpg",
       name: "Rodrigo Santos",
       university: "Universidade Federal do Estado do Rio de Janeiro",
       memberType: "Membro Permanente",
@@ -90,7 +90,7 @@ export const dadosCoordenadores = {
   ],
   2020: [
     {
-      imgSrc: "/assets/imgs/Igor Steinmacher.jpg",
+      imgSrc: "./assets/imgs/Igor Steinmacher.jpg",
       name: "Igor Steinmacher",
       university: "Northern Arizona University",
       memberType: "Membro Permanente",
@@ -98,7 +98,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/5529725593221391",
     },
     {
-      imgSrc: "/assets/imgs/Awdren Fontão.jpg",
+      imgSrc: "./assets/imgs/Awdren Fontão.jpg",
       name: "Awdren Fontão",
       university: "Universidade Federal do Mato Grosso do Sul",
       memberType: "Membro Permanente",
@@ -108,7 +108,7 @@ export const dadosCoordenadores = {
   ],
   2021: [
     {
-      imgSrc: "/assets/imgs/Flavio Horita.jpg",
+      imgSrc: "./assets/imgs/Flavio Horita.jpg",
       name: "Flavio Horita",
       university: "Universidade Federal do ABC",
       memberType: "Coordenador",
@@ -116,7 +116,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/7147903983636855",
     },
     {
-      imgSrc: "/assets/imgs/Awdren Fontão.jpg",
+      imgSrc: "./assets/imgs/Awdren Fontão.jpg",
       name: "Awdren Fontão",
       university: "Universidade Federal do Mato Grosso do Sul",
       memberType: "Membro Permanente",
@@ -126,7 +126,7 @@ export const dadosCoordenadores = {
   ],
   2022: [
     {
-      imgSrc: "/assets/imgs/Emanuel Coutinho.png",
+      imgSrc: "./assets/imgs/Emanuel Coutinho.png",
       name: "Emanuel Coutinho",
       university: "Universidade Federal do Ceará",
       memberType: "Coordenador",
@@ -134,7 +134,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/9359546788802277",
     },
     {
-      imgSrc: "/assets/imgs/Flavio Horita.jpg",
+      imgSrc: "./assets/imgs/Flavio Horita.jpg",
       name: "Flavio Horita",
       university: "Universidade Federal do ABC",
       memberType: "Coordenador",
@@ -144,7 +144,7 @@ export const dadosCoordenadores = {
   ],
   2023: [
     {
-      imgSrc: "/assets/imgs/Emanuel Coutinho.png",
+      imgSrc: "./assets/imgs/Emanuel Coutinho.png",
       name: "Emanuel Coutinho",
       university: "Universidade Federal do Ceará",
       memberType: "Coordenador",
@@ -152,7 +152,7 @@ export const dadosCoordenadores = {
       lattesUrl: "http://lattes.cnpq.br/9359546788802277",
     },
     {
-      imgSrc: "/assets/imgs/Anna Beatriz.jpg",
+      imgSrc: "./assets/imgs/Anna Beatriz.jpg",
       name: "Anna Beatriz",
       university: "Universidade Federal do Ceará",
       memberType: "Coordenadora",

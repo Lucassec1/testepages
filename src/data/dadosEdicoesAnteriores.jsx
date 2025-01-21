@@ -10,7 +10,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/369"
   },
   { // Segunda Edição WASHES
-    imagem: "public/assets/edicoesAnterioresImages/washes-ii-salvador.jpg",
+    imagem: "./assets/edicoesAnterioresImages/washes-ii-salvador.jpg",
     creditosDaImagem:"Foto de Leonardo Dourado no Pexels",
     edicao: "II WASHES",
     local : "Salvador - BA",
@@ -19,7 +19,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/370"
   },
   { // Terceira Edição WASHES
-    imagem: "public/assets/edicoesAnterioresImages/washes-iii-natal.jpg",
+    imagem: "./assets/edicoesAnterioresImages/washes-iii-natal.jpg",
     creditosDaImagem:"Foto de Aldair Silva no Pexels",
     edicao: "III WASHES",
     local : "Natal - RN ",
@@ -28,7 +28,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/218"
   },
   { // Quarta Edição WASHES
-    imagem: "/assets/edicoesAnterioresImages/washes-iv-belem.jpg",
+    imagem: "./assets/edicoesAnterioresImages/washes-iv-belem.jpg",
     creditosDaImagem:"Foto de Natã Romualdo no Pexels",
     edicao: "IV WASHES",
     local : "Belém - PA",
@@ -37,7 +37,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/387"
   },
   { // Quinta Edição WASHES
-    imagem: "/assets/edicoesAnterioresImages/washes-v-vi-remoto.jpg",
+    imagem: "./assets/edicoesAnterioresImages/washes-v-vi-remoto.jpg",
     creditosDaImagem:"Foto de kjpargeter no FreePink",
     edicao: "V WASHES",
     local : "Remoto",
@@ -46,7 +46,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/583"
   },
   { // Sexta Edição WASHES
-    imagem: "/assets/edicoesAnterioresImages/washes-v-vi-remoto.jpg",
+    imagem: "./assets/edicoesAnterioresImages/washes-v-vi-remoto.jpg",
     creditosDaImagem:"Foto de kjpargeter no FreePink",
     edicao: "VI WASHES",
     local : "Remoto",
@@ -55,7 +55,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/762"
   },
   { // Sétima Edição WASHES
-    imagem: "/assets/edicoesAnterioresImages/washes-vii-niteroi.jpg",
+    imagem: "./assets/edicoesAnterioresImages/washes-vii-niteroi.jpg",
     creditosDaImagem:"Foto de Caroline Cagnin no Pexels",
     edicao: "VII WASHES",
     local : "Niterói - RJ",
@@ -64,7 +64,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/932"
   },
   { // Oitava Edição WASHES
-    imagem: "/assets/edicoesAnterioresImages/washes-viii-joaoPessoa.jpg",
+    imagem: "./assets/edicoesAnterioresImages/washes-viii-joaoPessoa.jpg",
     creditosDaImagem:"Foto de Roberto Rodrigues no Pexels",
     edicao: "VIII WASHES",
     local : "João Pessoa - PB",
@@ -73,7 +73,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/1116"
   },
   { // Nona Edição WASHES
-    imagem: "/assets/edicoesAnterioresImages/washes-ix-brasilia.jpg",    
+    imagem: "./assets/edicoesAnterioresImages/washes-ix-brasilia.jpg",    
     creditosDaImagem:"Foto de Lucas Menesesno Pexels",
     edicao: "IX WASHES",
     local : "Brasília - DF",
@@ -82,7 +82,7 @@ export const dadosEdicoesAnteriores = [
     linkAnalEvento: "https://sol.sbc.org.br/index.php/washes/issue/view/1323"
   },
   { // Decima Edição WASHES
-    imagem: "/assets/edicoesAnterioresImages/washes-x-maceio.jpg",
+    imagem: "./assets/edicoesAnterioresImages/washes-x-maceio.jpg",
     creditosDaImagem:"Foto de Filipe Coelho Pexels",
     edicao: "X WASHES",
     local : "Maceió - Al",
