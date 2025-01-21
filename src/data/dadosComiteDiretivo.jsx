@@ -299,7 +299,7 @@ export const dadosComiteDiretivo = {
   ],
   2025: [
     {
-      imgSrc: "./testepages./assets/imgs/Davi Viana.jpeg",
+      imgSrc: "./assets/imgs/Davi Viana.jpeg",
       name: "Davi Viana",
       university: "Universidade Federal do Maranhão",
       memberType: "Membro Permanente",
@@ -307,7 +307,7 @@ export const dadosComiteDiretivo = {
       lattesUrl: "http://lattes.cnpq.br/9297257833779277",
     },
     {
-      imgSrc: "../assets/imgs/Igor Steinmacher.jpg",
+      imgSrc: "./assets/imgs/Igor Steinmacher.jpg",
       name: "Igor Steinmacher",
       university: "Northern Arizona University",
       memberType: "Membro Permanente",
@@ -315,7 +315,7 @@ export const dadosComiteDiretivo = {
       lattesUrl: "http://lattes.cnpq.br/5529725593221391",
     },
     {
-      imgSrc: "../assets/imgs/rodrigo_santos.jpg",
+      imgSrc: "./assets/imgs/rodrigo_santos.jpg",
       name: "Rodrigo Santos",
       university: "Universidade Federal do Estado do Rio de Janeiro",
       memberType: "Membro Permanente",
@@ -323,7 +323,7 @@ export const dadosComiteDiretivo = {
       lattesUrl: "http://lattes.cnpq.br/8613736894676086",
     },
     {
-      imgSrc: "../assets/imgs/Awdren Fontão.jpg",
+      imgSrc: "./assets/imgs/Awdren Fontão.jpg",
       name: "Awdren Fontão",
       university: "Universidade Federal do Mato Grosso do Sul",
       memberType: "Membro Permanente",
