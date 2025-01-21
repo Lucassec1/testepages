@@ -40,6 +40,7 @@ function App() {
           <Route path="/edicoes-anteriores" element={<EdicoesAnteriores />} />
           <Route path="/datawashes" element={<DataWashes />} />
           {/* <Route path="*" element={<NoMatch />} /> */}
+          
         </Routes>
       </div>
       <Footer />
