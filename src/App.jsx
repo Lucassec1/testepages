@@ -14,7 +14,7 @@ import Washes2022 from './pages/WASHES/Washes2022';
 import Washes2023 from './pages/WASHES/Washes2023';
 import Washes2024 from './pages/WASHES/Washes2024';
 import Washes2025 from './pages/WASHES/Washes2025';
-import Washes2026 from './pages/WASHES/Washes2026';
+// import Washes2026 from './pages/WASHES/Washes2026';
 import EdicoesAnteriores from './pages/EdicoesAnteriores';
 import DataWashes from './pages/DataWashes';
 
@@ -38,7 +38,7 @@ function App() {
           <Route path="/washes-2023" element={<Washes2023 />} />
           <Route path="/washes-2024" element={<Washes2024 />} />
           <Route path="/washes-2025" element={<Washes2025 />} />
-          <Route path="/washes-2026" element={<Washes2026 />} />
+          {/* <Route path="/washes-2026" element={<Washes2026 />} /> */}
           <Route path="/edicoes-anteriores" element={<EdicoesAnteriores />} />
           <Route path="/datawashes" element={<DataWashes />} />
           {/* <Route path="*" element={<NoMatch />} /> */}
