@@ -1,6 +1,6 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import ScrollTop from './components/ScrollTop';
+import ScrollToTop from './components/ScrollTop';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import QuemSomos from './pages/QuemSomos';
@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <ScrollTop />
+      <ScrollToTop />
       <div className="pt-14">
         <Routes>
           <Route index element={<Home />} />
